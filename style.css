@@ -1,0 +1,81 @@
+/*  font-family: "Rubik", sans-serif;
+font-family: 'Yeseva One', serif;
+
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,li,ol,a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.hero-section{
+    background-image: url(../img/img.jpg.jpg);
+}
+
+.hero-section p {
+    color: rgb(1, 2, 4);
+    text-decoration: bold;
+    font-size: 16px;
+}
+
+.hero-section h1{
+    color: rgb(25, 44, 44);
+    font: bold;
+    font-style: italic;
+}
+/* ১. স্বাভাবিক অবস্থা (Normal State) - ঐচ্ছিক */
+.document-wrap {
+    background-color: #ffffff; /* সাদা বা আপনার পছন্দের স্বাভাবিক রঙ */
+    transition: background-color 0.3s ease; /* মসৃণ পরিবর্তনের জন্য (Optional) */
+}
+
+/* ২. হোভার অবস্থা (Hover State) - মূল পরিবর্তন */
+.document-wrap:hover {
+    background-color: #f0f0f0; /* কার্সার নিলে যে রঙ হবে (উদাহরণস্বরূপ: হালকা ধূসর) */
+    cursor: pointer; /* কার্সারকে ক্লিকযোগ্য আইকনে পরিবর্তন করবে (Optional but recommended) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* হোভারের সময় হালকা ছায়া যোগ করতে পারেন */
+}
+
+.document-wrap a i{
+    background-color: rgb(7, 95, 7);
+    transition: background-color 0.3s ease; /* মসৃণ পরিবর্তনের জন্য (Optional) */
+}
+
+.document-wrap a i:hover{
+    background-color: crimson;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* হোভারের সময় হালকা ছায়া যোগ করতে পারেন */
+    cursor: pointer;
+}
+.interview-video{
+    position: relative;
+}
+.date{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: crimson;
+    color: #f0f0f0;
+    padding: 10px 20px;
+    border-radius: 0 20px 20px 0;
+    
+}
+
+#ending{
+    background-color: burlywood;
+}
+
+.footeritems p:hover{
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* মসৃণ পরিবর্তনের জন্য (Optional) */
+    color: rgb(255, 245, 242);
+    font: 200;
+}
+
+    
+
+
